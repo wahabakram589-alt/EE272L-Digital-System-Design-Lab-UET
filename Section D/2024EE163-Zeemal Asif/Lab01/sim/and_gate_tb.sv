@@ -1,0 +1,28 @@
+     module and_gate_tb;
+
+   logic a1, b1, y1;
+   localparam period = 10;
+
+   and_gate UUT(      // ✅ Correct module name
+      .A(a1),
+      .B(b1),
+      .Y(y1)          // ✅ No comma here
+   );
+
+   initial begin
+      a1=0; b1=0;
+      #period
+      a1=0; b1=1;
+      #period
+      a1=1; b1=0;
+      #period
+      a1=1; b1=1;
+      #period
+      $stop;
+   end
+
+   initial begin
+      $monitor("y=%b, a=%b, b=%b", y1, a1, b1);
+   end
+
+endmodule
