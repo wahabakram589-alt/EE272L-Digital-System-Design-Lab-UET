@@ -1,0 +1,15 @@
+{E:/uni/sem 3/DLD/Lab 01/and_gate.sv} {1 {vlog -work work -vopt -sv -stats=none {E:/uni/sem 3/DLD/Lab 01/and_gate.sv}
+QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
+-- Compiling module and_gate
+
+Top level modules:
+	and_gate
+
+} {} {}} {E:/uni/sem 3/DLD/Lab 01/and_gate_tb.SV} {1 {vlog -work work -vopt -sv -stats=none {E:/uni/sem 3/DLD/Lab 01/and_gate_tb.SV}
+QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
+-- Compiling module and_gate_tb
+
+Top level modules:
+	and_gate_tb
+
+} {} {}}
