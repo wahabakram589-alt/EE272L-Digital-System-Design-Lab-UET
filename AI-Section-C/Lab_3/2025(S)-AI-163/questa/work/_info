@@ -1,0 +1,59 @@
+m255
+K4
+z2
+!s11f vlog 2021.1 2021.01, Jan 19 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Jalal/Study/Semester_4/DSD_LAB/Lab_2_final
+vseven_seg_decoder
+Z0 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z1 !s110 1771833543
+!i10b 1
+!s100 HCzO]f3CX`hl@ANWT`5OJ1
+ICmg?W2AK^0jb`nKz<U8PL1
+S1
+Z2 dC:/Jalal/Study/Semester_4/DSD_LAB/Lab_3/questa
+w1771832950
+8C:/Jalal/Study/Semester_4/DSD_LAB/Lab_3/decoder.sv
+FC:/Jalal/Study/Semester_4/DSD_LAB/Lab_3/decoder.sv
+!i122 2
+L0 1 64
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+Z4 OL;L;2021.1;73
+r1
+!s85 0
+31
+!s108 1771833542.000000
+!s107 C:/Jalal/Study/Semester_4/DSD_LAB/Lab_3/decoder.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Jalal/Study/Semester_4/DSD_LAB/Lab_3/decoder.sv|
+!i113 0
+Z5 o-work work -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z6 tCvgOpt 0
+vtop_adder_decoder
+R0
+R1
+!i10b 1
+!s100 48=P1acC25NG0C[LD[7hQ3
+IUJdAEdII2_z]=f=Y`o0W71
+S1
+R2
+w1771833538
+8C:/Jalal/Study/Semester_4/DSD_LAB/Lab_3/top_adder_decoder.sv
+FC:/Jalal/Study/Semester_4/DSD_LAB/Lab_3/top_adder_decoder.sv
+!i122 3
+L0 1 36
+R3
+R4
+r1
+!s85 0
+31
+!s108 1771833543.000000
+!s107 C:/Jalal/Study/Semester_4/DSD_LAB/Lab_3/top_adder_decoder.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Jalal/Study/Semester_4/DSD_LAB/Lab_3/top_adder_decoder.sv|
+!i113 0
+R5
+R6

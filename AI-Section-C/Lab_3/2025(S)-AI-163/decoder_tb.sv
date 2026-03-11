@@ -1,0 +1,32 @@
+module decoder_tb;
+logic [2:0] a;
+logic [2:0] b;
+logic       c_in;
+logic [6:0] seg;
+logic [7:0] an;
+decoder MEA (
+    .a(a)
+    .b(b)
+    .c_in(c_in) ,
+    .seg(seg) ,
+    .an(an)
+) ;
+initial begin
+    $display("a\tb\tc_in\tresult(seg)\tan") ;
+    a=3 ; b=4 ; c_in=0 ;
+    #10;
+    $display("%b\t%b\t%b\t%b\t%b" , a , b , c_in , seg , an) ;
+    if (seg != 7'b0001111)
+    $display("ERROR:seg_output_incorrect") ;
+    else
+    $display("PASS:seg_output_correct") ;
+
+    if (an != 8'b01111111)
+    $display("ERROR:an_output_incorrect") ;
+    else 
+    $display("PASS:an_output_correct") ;
+
+    $display("Now_its_your_turn!
+        _Try_other_input_combinations_to_explore_the_adder_output") ;
+end
+endmodule

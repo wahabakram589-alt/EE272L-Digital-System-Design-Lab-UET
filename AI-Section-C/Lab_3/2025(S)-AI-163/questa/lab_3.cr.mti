@@ -1,0 +1,24 @@
+C:/Jalal/Study/Semester_4/DSD_LAB/Lab_3/decoder.sv {1 {vlog -work work -vopt -sv -stats=none C:/Jalal/Study/Semester_4/DSD_LAB/Lab_3/decoder.sv
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module seven_seg_decoder
+
+Top level modules:
+	seven_seg_decoder
+
+} {} {}} C:/Jalal/Study/Semester_4/DSD_LAB/Lab_3/top_adder_decoder.sv {1 {vlog -work work -vopt -sv -stats=none C:/Jalal/Study/Semester_4/DSD_LAB/Lab_3/top_adder_decoder.sv
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module top_adder_decoder
+
+Top level modules:
+	top_adder_decoder
+
+} {} {}} C:/Jalal/Study/Semester_4/DSD_LAB/Lab_3/decoder_tb.sv {0 {vlog -work work -vopt -sv -stats=none C:/Jalal/Study/Semester_4/DSD_LAB/Lab_3/decoder_tb.sv
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module decoder_tb
+** Error: (vlog-13069) C:/Jalal/Study/Semester_4/DSD_LAB/Lab_3/decoder_tb.sv(9): near ".": syntax error, unexpected '.', expecting ')'.
+** Warning: C:/Jalal/Study/Semester_4/DSD_LAB/Lab_3/decoder_tb.sv(29): (vlog-2643) Unterminated string literal continues onto next line.
+
+} {4.0 5.0} {}} C:/Jalal/Study/Semester_4/DSD_LAB/Lab_3/decoder_2.sv {1 {vlog -work work -vopt -sv -stats=none C:/Jalal/Study/Semester_4/DSD_LAB/Lab_3/decoder_2.sv
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+
+} {} {}}
